@@ -1,0 +1,10 @@
+#CCFFCC
+#CCFF00
+#00FF00
+#FF0000
+English
+#999999
+#FF0000
+#000000
+Bottom
+Normal
