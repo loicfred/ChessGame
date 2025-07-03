@@ -145,7 +145,6 @@ public class Settings extends CFrame {
     }
 
 
-
     // these are the color selectors for the theme of the game.
     public CColorButton Theme = new CColorButton(Prefs.getTheme());
     public CColorButton Theme2 = new CColorButton(Prefs.getTheme2());
