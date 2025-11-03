@@ -21,6 +21,7 @@ public class TitleMenu extends CFrame {
     public TitleMenu() {
         super("Title Screen - Chess Game");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
         setSize(250,300);
 
         // the main panel containing all items of the window
