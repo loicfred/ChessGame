@@ -35,9 +35,9 @@ It is similar to single player mode except you can also control the opponent.
 ## Settings
 You can also modify various settings such as the UI color, the chessboard color, the difficulty and so on.
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7c031c2f-bb07-478d-9974-9794f51f817c" />
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/c906e873-0868-465f-a765-fcd08088bee1" />
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/e5d0ac8a-1e13-483a-94d9-36f9504fbbd8" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/7c031c2f-bb07-478d-9974-9794f51f817c" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c906e873-0868-465f-a765-fcd08088bee1" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e5d0ac8a-1e13-483a-94d9-36f9504fbbd8" />
 
 ### Theme Demonstration
 
