@@ -2,6 +2,11 @@
 This project is a chess game made for my Object Oriented Programming assignment at University.
 It is a complete chess game with most of the rules and very customisable colors.
 
+**Contributors:**
+- ❤️ [Loïc Fred](https://github.com/loicfred) (Main Coder)
+- 💙 Ajay Dooshan (Gameplay Expert)
+- 💚 Harry Bhuckory (Tester)
+
 **Applied Skills:**
 - Java Swing
 - Object-Oriented Programming
