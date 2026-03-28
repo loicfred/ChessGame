@@ -64,7 +64,7 @@ public class GameMenu extends CFrame {
         Bottom.setLayout(new GridLayout(3, 1)); // 3 rows (Description, Move Counter, Buttons)
         Bottom.setBorder(new EmptyBorder(0,10,10,10));
         // Game Status Text
-        Description = new CLabel("The game starts now! White may start.");
+        Description = new CLabel("The game starts now! " + (P1 == Side.Bottom ? "White" : "Black") +" may start.");
         Description.setFont(new Font("Arial", Font.BOLD, 24));
         Description.setHorizontalAlignment(SwingConstants.CENTER);
         Bottom.add(Description);
@@ -91,7 +91,6 @@ public class GameMenu extends CFrame {
             @Override
             public void mouseReleased(MouseEvent e) {
                 Board.reset();
-                UpdateGameStatus("The game starts now! White may start.");
             }
         });
 

@@ -50,6 +50,7 @@ public class Chessboard extends CPanel {
         GameMenu.Move = -1;
         Turn = Side.Bottom;
         SaveGameState();
+        UpdateGameStatus("The game starts now! " + (P1 == Side.Bottom ? "White" : "Black") +" may start.");
     }
 
     // get all pieces from one team
@@ -158,7 +159,6 @@ public class Chessboard extends CPanel {
                                 if (GameMenu.Move >= 500) {
                                     JOptionPane.showMessageDialog(null, "Reached turn limit: Draw");
                                     Board.reset();
-                                    UpdateGameStatus("The game starts now! White may start.");
                                 } else {
                                     UpdateGameStatus("It is now " + gs.getPiece().getOpposingColorString() + "'s turn!");
                                     if (hasAI) {
@@ -250,14 +250,12 @@ public class Chessboard extends CPanel {
                 System.out.println(Board.Turn + " " + K.getColorString());
                 JOptionPane.showMessageDialog(null, "Stalemate: Draw");
                 Board.reset();
-                UpdateGameStatus("The game starts now! White may start.");
                 return true;
             }
             // ends the game in a win if checkmate
             else if (K.isCheckmate()) {
                 JOptionPane.showMessageDialog(null, "Checkmate: " + K.getOpposingColorString() + " won!");
                 Board.reset();
-                UpdateGameStatus("The game starts now! White may start.");
                 return true;
             }
             return false;
@@ -383,6 +381,7 @@ public class Chessboard extends CPanel {
                                     Board.Grid[oppMove[0]][oppMove[1]].movePiece(P);
                                     Board.Turn = Board.Turn == Side.Top ? Side.Bottom : Side.Top;
                                     SaveGameState();
+                                    UpdateGameStatus("It is now " + P.getOpposingColorString() + "'s turn!");
                                     return true;
                                 }
                             }
@@ -398,6 +397,7 @@ public class Chessboard extends CPanel {
                                 Board.Grid[oppMove[0]][oppMove[1]].movePiece(P);
                                 Board.Turn = Board.Turn == Side.Top ? Side.Bottom : Side.Top;
                                 SaveGameState();
+                                UpdateGameStatus("It is now " + P.getOpposingColorString() + "'s turn!");
                                 return true;
                             }
                         }
@@ -420,6 +420,7 @@ public class Chessboard extends CPanel {
                                 Board.Grid[oppMove[0]][oppMove[1]].movePiece(P);
                                 Board.Turn = Board.Turn == Side.Top ? Side.Bottom : Side.Top;
                                 SaveGameState();
+                                UpdateGameStatus("It is now " + P.getOpposingColorString() + "'s turn!");
                                 return true;
                             }
                         } else {
@@ -432,6 +433,7 @@ public class Chessboard extends CPanel {
                             Board.Grid[oppMove[0]][oppMove[1]].movePiece(P);
                             Board.Turn = Board.Turn == Side.Top ? Side.Bottom : Side.Top;
                             SaveGameState();
+                            UpdateGameStatus("It is now " + P.getOpposingColorString() + "'s turn!");
                             return true;
                         }
                     }
