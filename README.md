@@ -44,7 +44,7 @@ You can also modify various settings such as the UI color, the chessboard color,
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/774b19fe-6ce0-4efa-af3d-18fa981e89ed" />
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/f8d48863-6427-4e36-a84f-400535f74d4d" />
 
-## Object Oriented Principles
+## Object-Oriented Principles
 In this application, each chess piece was an object inheriting from abstract class `Piece.java`, which contains an abstract method `getPlaceableAreas()` determing all locations a piece can move. It also includes basic attributes such as color, coordinates and side.
 
 The coordinates of each piece are determined using mathematical checks, getting the current coordinates of a piece, verifying if his current coordinates in addition to their possible moveable areas are freely, then returning the coordinates as 2-item array of integer and do the rest of the calculations and display on the board.  
