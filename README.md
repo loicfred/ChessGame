@@ -28,7 +28,7 @@ The logic behind it is based on probability, each turn after the user makes a mo
 
 ## Multiplayer Mode
 Allows 2 users to play chess against each other on the same device.
-It is similar to single player mode except you can also control the opponent.
+It is similar to singleplayer mode except you can also control the opponent.
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/c749d824-c8af-4b63-8a07-5765dcfb8efb" />
 
