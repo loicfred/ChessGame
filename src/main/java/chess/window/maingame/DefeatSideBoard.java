@@ -10,6 +10,7 @@ import java.io.IOException;
 
 import static chess.Main.Prefs;
 
+@SuppressWarnings("all")
 public class DefeatSideBoard extends CPanel {
     protected final DefeatGrid[][] Grid = new DefeatGrid[2][8];
 

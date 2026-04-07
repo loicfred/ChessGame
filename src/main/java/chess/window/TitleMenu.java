@@ -15,6 +15,7 @@ import java.awt.event.MouseMotionAdapter;
 import static chess.Main.Prefs;
 import static chess.Main.GameScreen;
 
+@SuppressWarnings("all")
 public class TitleMenu extends CFrame {
 
     // declaring the title menu

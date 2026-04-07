@@ -13,6 +13,7 @@ import java.awt.event.*;
 
 import static chess.Main.Prefs;
 
+@SuppressWarnings("all")
 public class GameMenu extends CFrame {
 
     // an array of the 101 states of the game and the value representing the current turn of the game.

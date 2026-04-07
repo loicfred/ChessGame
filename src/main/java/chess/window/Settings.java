@@ -16,6 +16,7 @@ import static chess.Main.*;
 import static chess.window.maingame.GameMenu.P1;
 import static chess.window.maingame.GameMenu.hasAI;
 
+@SuppressWarnings("all")
 public class Settings extends CFrame {
 
     // The main settings menu, with the initial page which can be defined.

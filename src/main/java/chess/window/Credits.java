@@ -15,6 +15,7 @@ import java.awt.event.MouseMotionAdapter;
 
 import static chess.Main.Prefs;
 
+@SuppressWarnings("all")
 public class Credits extends CFrame {
 
     // used for moving the custom JPanel
