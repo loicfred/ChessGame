@@ -1,5 +1,5 @@
 # ChessGame
-This project is a chess game made for my Object Oriented Programming assignment at University.
+This project is a chess game made for my Object-Oriented Programming assignment at University.
 It is a complete chess game with most of the rules and very customisable colors.
 
 **Contributors:**
@@ -28,23 +28,23 @@ The logic behind it is based on probability, each turn after the user makes a mo
 
 ## Multiplayer Mode
 Allows 2 users to play chess against each other on the same device.
-It is similar to single player mode except you can also control the opponent.
+It is similar to singleplayer mode except you can also control the opponent.
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/c749d824-c8af-4b63-8a07-5765dcfb8efb" />
 
 ## Settings
 You can also modify various settings such as the UI color, the chessboard color, the difficulty and so on.
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7c031c2f-bb07-478d-9974-9794f51f817c" />
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/c906e873-0868-465f-a765-fcd08088bee1" />
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/e5d0ac8a-1e13-483a-94d9-36f9504fbbd8" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/7c031c2f-bb07-478d-9974-9794f51f817c" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/c906e873-0868-465f-a765-fcd08088bee1" />
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/e5d0ac8a-1e13-483a-94d9-36f9504fbbd8" />
 
 ### Theme Demonstration
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/774b19fe-6ce0-4efa-af3d-18fa981e89ed" />
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/f8d48863-6427-4e36-a84f-400535f74d4d" />
 
-## Object Oriented Principles
+## Object-Oriented Principles
 In this application, each chess piece was an object inheriting from abstract class `Piece.java`, which contains an abstract method `getPlaceableAreas()` determing all locations a piece can move. It also includes basic attributes such as color, coordinates and side.
 
 The coordinates of each piece are determined using mathematical checks, getting the current coordinates of a piece, verifying if his current coordinates in addition to their possible moveable areas are freely, then returning the coordinates as 2-item array of integer and do the rest of the calculations and display on the board.  
